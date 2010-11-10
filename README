@@ -1,0 +1,34 @@
+##########
+# README # 
+########## 
+
+
+#
+# Main Algorithm Steps
+# 
+# 1. Setting the variables(for the moment only support "seconds" and "sine" function)
+# 2. WAVE_CPULOAD contains the cpu-load variations calculated from the WAVE_TIME
+# 3. Do a loop infinite, the idea is execute infinite loop waves ( one for loop will be a wave)
+# 4. Inside the loop for sleep 1 and load cpu 
+# 5. End
+
+# Example (no tested yet)
+# 
+# wave_time=10 #means the time for complete the wave is 10 seconds, probably is few time
+# wave_cpuload=(0 20 40 60 80 100 80 60 40 20 0) # calculate the wave cpuload distributed along the wave
+# while true
+# do
+#       for(( i=0 ; length(wave_cpuload) ; i++)); do 
+#               sleep 1            # setted for sleep 1 second, this value must be higher
+#               load_cpu(array[i]) #
+#       done
+# done
+
+#
+# NOTE about the time
+#
+
+# If for example the wave is 10T, and T=seconds means that the wave has
+# 10 seconds for complete the wave and the cpu_load will be [0 20 40 60 80 100 80 60 40 20 0]
+# 
+
