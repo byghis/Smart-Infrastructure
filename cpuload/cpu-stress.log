@@ -1,0 +1,144 @@
+edward@jaku:~/projects/cputime$ ./cpu-stress.sh
+0 [main] INFO shell  - PEAK_TIME: 5
+0 [main] INFO shell  - CPULOAD_INCREMENT_TIME: 20
+0 [main] INFO shell  - LENGTH_WAVE_CPULOAD: 11
+0 [main] INFO shell  - PRINTING THE SET WAVE CPULOAD:
+0 [main] INFO shell  - 0
+1 [main] INFO shell  - 20
+1 [main] INFO shell  - 40
+1 [main] INFO shell  - 60
+1 [main] INFO shell  - 80
+1 [main] INFO shell  - 100
+1 [main] INFO shell  - 80
+1 [main] INFO shell  - 60
+1 [main] INFO shell  - 40
+1 [main] INFO shell  - 20
+1 [main] INFO shell  - 0
+1 [main] INFO shell  - ---> Starting a new wave: 1
+1 [main] INFO shell  - Calling function load_cpu( 20  )
+1 [main] INFO shell  - Trying make load_cpu: 20
+1 [main] INFO shell  - The number of tasks for iterate is: 10
+1 [main] INFO shell  - Running  10  process
+linkstress: info: [23030] dispatching hogs: 10 cpu, 0 io, 0 vm, 0 hdd
+1 [main] INFO shell  - Value WAVE_UP:  0
+62 [main] INFO shell  - Calling function load_cpu( 40  )
+62 [main] INFO shell  - Trying make load_cpu: 40
+63 [main] INFO shell  - The number of tasks for iterate is: 10
+64 [main] INFO shell  - Running  10  process
+linkstress: info: [23153] dispatching hogs: 10 cpu, 0 io, 0 vm, 0 hdd
+64 [main] INFO shell  - Value WAVE_UP:  0
+125 [main] INFO shell  - Calling function load_cpu( 60  )
+126 [main] INFO shell  - Trying make load_cpu: 60
+127 [main] INFO shell  - The number of tasks for iterate is: 10
+128 [main] INFO shell  - Running  10  process
+linkstress: info: [23249] dispatching hogs: 10 cpu, 0 io, 0 vm, 0 hdd
+130 [main] INFO shell  - Value WAVE_UP:  0
+192 [main] INFO shell  - Calling function load_cpu( 80  )
+193 [main] INFO shell  - Trying make load_cpu: 80
+195 [main] INFO shell  - The number of tasks for iterate is: 10
+196 [main] INFO shell  - Running  10  process
+linkstress: info: [23345] dispatching hogs: 10 cpu, 0 io, 0 vm, 0 hdd
+198 [main] INFO shell  - Value WAVE_UP:  0
+260 [main] INFO shell  - Calling function load_cpu( 100  )
+262 [main] INFO shell  - Trying make load_cpu: 100
+264 [main] INFO shell  - The number of tasks for iterate is: 10
+265 [main] INFO shell  - Running  10  process
+linkstress: info: [23430] dispatching hogs: 10 cpu, 0 io, 0 vm, 0 hdd
+268 [main] INFO shell  - Maxime WAPE UP was reached
+270 [main] INFO shell  - Value WAVE_UP:  1
+332 [main] INFO shell  - Calling function load_cpu( 80  )
+335 [main] INFO shell  - Trying make load_cpu: 80
+337 [main] INFO shell  - The number of tasks for iterate is: 10
+339 [main] INFO shell  - Kill Process
+342 [main] INFO shell  - Getting Process
+345 [main] INFO shell  - Length of process to kill:  54
+347 [main] INFO shell  - Killing process contract will be complete
+349 [main] INFO shell  - Killing process  0  : 23030
+352 [main] INFO shell  - Killing process  1  : 23031
+354 [main] INFO shell  - Killing process  2  : 23033
+356 [main] INFO shell  - Killing process  3  : 23035
+359 [main] INFO shell  - Killing process  4  : 23037
+361 [main] INFO shell  - Killing process  5  : 23041
+363 [main] INFO shell  - Killing process  6  : 23043
+365 [main] INFO shell  - Killing process  7  : 23044
+367 [main] INFO shell  - Killing process  8  : 23045
+369 [main] INFO shell  - Killing process  9  : 23046
+371 [main] INFO shell  - Killing process  10  : 23047
+373 [main] INFO shell  - Value WAVE_UP:  1
+435 [main] INFO shell  - Calling function load_cpu( 60  )
+437 [main] INFO shell  - Trying make load_cpu: 60
+439 [main] INFO shell  - The number of tasks for iterate is: 10
+441 [main] INFO shell  - Kill Process
+443 [main] INFO shell  - Getting Process
+446 [main] INFO shell  - Length of process to kill:  43
+448 [main] INFO shell  - Killing process contract will be complete
+450 [main] INFO shell  - Killing process  0  : 23153
+452 [main] INFO shell  - Killing process  1  : 23154
+453 [main] INFO shell  - Killing process  2  : 23155
+455 [main] INFO shell  - Killing process  3  : 23157
+457 [main] INFO shell  - Killing process  4  : 23159
+459 [main] INFO shell  - Killing process  5  : 23161
+460 [main] INFO shell  - Killing process  6  : 23165
+462 [main] INFO shell  - Killing process  7  : 23167
+464 [main] INFO shell  - Killing process  8  : 23170
+465 [main] INFO shell  - Killing process  9  : 23172
+467 [main] INFO shell  - Killing process  10  : 23175
+468 [main] INFO shell  - Value WAVE_UP:  1
+530 [main] INFO shell  - Calling function load_cpu( 40  )
+531 [main] INFO shell  - Trying make load_cpu: 40
+533 [main] INFO shell  - The number of tasks for iterate is: 10
+534 [main] INFO shell  - Kill Process
+536 [main] INFO shell  - Getting Process
+538 [main] INFO shell  - Length of process to kill:  32
+539 [main] INFO shell  - Killing process contract will be complete
+540 [main] INFO shell  - Killing process  0  : 23249
+542 [main] INFO shell  - Killing process  1  : 23250
+543 [main] INFO shell  - Killing process  2  : 23251
+545 [main] INFO shell  - Killing process  3  : 23253
+546 [main] INFO shell  - Killing process  4  : 23255
+547 [main] INFO shell  - Killing process  5  : 23257
+548 [main] INFO shell  - Killing process  6  : 23261
+550 [main] INFO shell  - Killing process  7  : 23263
+551 [main] INFO shell  - Killing process  8  : 23266
+552 [main] INFO shell  - Killing process  9  : 23268
+553 [main] INFO shell  - Killing process  10  : 23271
+554 [main] INFO shell  - Value WAVE_UP:  1
+615 [main] INFO shell  - Calling function load_cpu( 20  )
+616 [main] INFO shell  - Trying make load_cpu: 20
+617 [main] INFO shell  - The number of tasks for iterate is: 10
+618 [main] INFO shell  - Kill Process
+619 [main] INFO shell  - Getting Process
+620 [main] INFO shell  - Length of process to kill:  21
+621 [main] INFO shell  - Killing process contract will be complete
+622 [main] INFO shell  - Killing process  0  : 23345
+623 [main] INFO shell  - Killing process  1  : 23346
+624 [main] INFO shell  - Killing process  2  : 23347
+625 [main] INFO shell  - Killing process  3  : 23349
+626 [main] INFO shell  - Killing process  4  : 23351
+627 [main] INFO shell  - Killing process  5  : 23353
+628 [main] INFO shell  - Killing process  6  : 23357
+629 [main] INFO shell  - Killing process  7  : 23359
+629 [main] INFO shell  - Killing process  8  : 23362
+630 [main] INFO shell  - Killing process  9  : 23364
+630 [main] INFO shell  - Killing process  10  : 23367
+631 [main] INFO shell  - Value WAVE_UP:  1
+692 [main] INFO shell  - Calling function load_cpu( 0  )
+692 [main] INFO shell  - Trying make load_cpu: 0
+693 [main] INFO shell  - The number of tasks for iterate is: 10
+693 [main] INFO shell  - Kill Process
+694 [main] INFO shell  - Getting Process
+694 [main] INFO shell  - Length of process to kill:  10
+694 [main] INFO shell  - Killing process contract will be complete
+695 [main] INFO shell  - Killing process  0  : 23430
+695 [main] INFO shell  - Killing process  1  : 23431
+696 [main] INFO shell  - Killing process  2  : 23433
+696 [main] INFO shell  - Killing process  3  : 23435
+696 [main] INFO shell  - Killing process  4  : 23437
+697 [main] INFO shell  - Killing process  5  : 23439
+697 [main] INFO shell  - Killing process  6  : 23442
+697 [main] INFO shell  - Killing process  7  : 23444
+698 [main] INFO shell  - Killing process  8  : 23447
+698 [main] INFO shell  - Killing process  9  : 23449
+698 [main] INFO shell  - Killing process  10  : 23452
+698 [main] INFO shell  - Value WAVE_UP:  1
+edward@jaku:~/projects/cputime$ 
