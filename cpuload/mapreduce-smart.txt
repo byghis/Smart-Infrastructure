@@ -1,0 +1,73 @@
+This REAME, describe a basic steps to run a MapReduce Application and Smart
+
+Main Steps
+----------
+0. Logging to cluster
+1. For each node(cluster), execute resource load (ex: in node "d3" cpuload: run-server.sh) in
+   "/nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/lua/scs/execution_node/run-server.sh"
+2. Setting enviroments paths (in node d4)
+   "source /nethome/prj/openbus/work/scs_healing/lua/conf-monitoring"
+3. Go to MapReduce application and run "./experimentosComInjecaoCarga.sh" (in d4) 
+   (run executing nodes and mapreduce application)
+    /nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/lua/scs/demos/mapreduce
+4. Wait and monitor the file "reporter.debug" inside the directory  
+   "/nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/lua/scs/execution_node"
+5. kill the CPU_RESERVE (ex: killall -e CPU_RESERVE <no tested yet>) (in d3, )
+
+NEW
+1. cd /nethome/prj/openbus/work/scs_healing/injectors/smart-infra
+2. ./cpu-stress.sh
+
+
+jobs scripts for fio(network,storage)
+/nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/java/scs/demos/lfis/Fio
+
+
+Loading CPU
+-------------
+
+0. Logging to cluster
+----------------------
+ssh econdori@ssh.tecgraf.puc-rio.br
+ssh econdori@bellini
+ssh d4
+
+1. lançar carga para cada nó que tem carga
+-------------------------------------------
+$ ssh nó (example "ssh d1")
+$ cd /home/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/lua/scs/execution_node/
+$ run-server.sh ou
+nohup run-disk-load.sh porcentagem & ou
+nohup run-net-load.sh porcentagem & 
+
+
+2. Setting enviroment paths
+$ bash
+source /nethome/prj/openbus/work/scs_healing/lua/conf-monitoring
+
+(deprecated)source ./openbus/work/scs_healing/lua/conf-monitoring
+
+3. Go to MapReduce application
+
+cd /nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/lua/scs/demos/mapreduce
+
+(deprecated)
+cd work/scs_healing/lua/scs/demos/mapreduce/
+./experimentosComInjecaoCarga.sh  (lança os execution nodes e a aplicação mapreduce)
+
+
+Note
+-----
+Node d4: 
+
+
+CPUStress
+-----------
+
+Cpustress.java 
+/nethome/prj/openbus/work/scs_healing/scs-monitor/scs_healing/scs/src/java/scs/demos/lfis/CPU
+
+
+[off]
+----------------------------------------------------------------
+../openbus/work/scs_healing/injectors/CPU_RSV_2009_02_19/server
